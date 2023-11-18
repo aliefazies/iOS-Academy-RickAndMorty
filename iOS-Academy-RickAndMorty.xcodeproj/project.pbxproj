@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018BB1E12B08CC4A002FA3D8 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BB1E02B08CC4A002FA3D8 /* RMSingleLocation.swift */; };
+		018BB1E32B08CE0A002FA3D8 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BB1E22B08CE0A002FA3D8 /* RMCharacterStatus.swift */; };
+		018BB1E52B08CEF1002FA3D8 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018BB1E42B08CEF1002FA3D8 /* RMCharacterGender.swift */; };
 		01DCFB862B07695500422E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFB852B07695500422E80 /* AppDelegate.swift */; };
 		01DCFB882B07695500422E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFB872B07695500422E80 /* SceneDelegate.swift */; };
 		01DCFB8A2B07695500422E80 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFB892B07695500422E80 /* RMTabViewController.swift */; };
@@ -22,9 +25,13 @@
 		01DCFBB42B0782DD00422E80 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFBB32B0782DD00422E80 /* RMService.swift */; };
 		01DCFBB62B0782EB00422E80 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFBB52B0782EB00422E80 /* RMRequest.swift */; };
 		01DCFBB82B07839E00422E80 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCFBB72B07839E00422E80 /* RMEndpoint.swift */; };
+		01E73C492B07923B0046FED3 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E73C482B07923B0046FED3 /* RMOrigin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		018BB1E02B08CC4A002FA3D8 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		018BB1E22B08CE0A002FA3D8 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		018BB1E42B08CEF1002FA3D8 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		01DCFB822B07695500422E80 /* iOS-Academy-RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Academy-RickAndMorty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DCFB852B07695500422E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DCFB872B07695500422E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		01DCFBB32B0782DD00422E80 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		01DCFBB52B0782EB00422E80 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		01DCFBB72B07839E00422E80 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		01E73C482B07923B0046FED3 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				01DCFBA12B076C7B00422E80 /* RMLocation.swift */,
 				01DCFBA32B076CD600422E80 /* RMCharacter.swift */,
+				018BB1E42B08CEF1002FA3D8 /* RMCharacterGender.swift */,
+				018BB1E22B08CE0A002FA3D8 /* RMCharacterStatus.swift */,
+				01E73C482B07923B0046FED3 /* RMOrigin.swift */,
+				018BB1E02B08CC4A002FA3D8 /* RMSingleLocation.swift */,
 				01DCFBA52B076CE000422E80 /* RMEpisode.swift */,
 			);
 			path = Models;
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E73C492B07923B0046FED3 /* RMOrigin.swift in Sources */,
+				018BB1E12B08CC4A002FA3D8 /* RMSingleLocation.swift in Sources */,
+				018BB1E32B08CE0A002FA3D8 /* RMCharacterStatus.swift in Sources */,
+				018BB1E52B08CEF1002FA3D8 /* RMCharacterGender.swift in Sources */,
 				01DCFBAE2B076D7800422E80 /* RMLocationViewController.swift in Sources */,
 				01DCFBA62B076CE000422E80 /* RMEpisode.swift in Sources */,
 				01DCFB8A2B07695500422E80 /* RMTabViewController.swift in Sources */,
